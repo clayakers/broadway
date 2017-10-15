@@ -1,7 +1,12 @@
-.header {
-  background-image: url('file:///Users/clayakers/Documents/GitHub/Projects/broadway/resources/images/the-flatiron-building.png');
-  color: gray;
+body{
+  font-family: Helvetica;
+  margin: 0px;
   text-align: center;
+}
+.header {
+  color: white;
+  background-image: url('/resources/images/the-flatiron-building.png');
+  width: auto;
 }
 .header h1{
   font-size: 70px;
@@ -9,4 +14,18 @@
 }
 .header ul{
   list-style-type: none;
+  line-height: 2em;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+.content a{
+  color: gray;
+  text-decoration: none;
+}
+#work h2{
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
 }
