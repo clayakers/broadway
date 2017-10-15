@@ -2,6 +2,11 @@ body{
   font-family: Helvetica;
   margin: 0px;
   text-align: center;
+  color: dimgray;
+}
+div {
+  vertical-align: middle;
+
 }
 .header {
   color: white;
@@ -24,8 +29,31 @@ body{
   color: gray;
   text-decoration: none;
 }
-#work h2{
+.content h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+.content h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+#totop {
+  text-align: right;
+  font-size: 11px;
+}
+#work h1{
   color: white;
   font-size: 23px;
   font-weight: bold;
+}
+
+
+footer {
+  text-align: left;
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+}
+footer a{
+  color: white;
 }
